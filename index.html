@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Lucas Labatut</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="full-width-header">
+      <header class="cabecalho">
+        <a href="https://main--lucaslabatut.netlify.app/">
+          <img src="assets/img/LogoDev.png" alt="Logotipo" class="logo" />
+        </a>
+        <nav class="navegacao">
+          <ul id="menu.js" class="menu">
+            <li>
+              <a href="#inicio"
+                ><i class="fa fa-home"></i
+                ><span class="menu-text">Início</span></a
+              >
+            </li>
+            <li>
+              <a href="#sobre"
+                ><i class="fa fa-user"></i
+                ><span class="menu-text">Sobre Mim</span></a
+              >
+            </li>
+            <li>
+              <a href="#habilidades"
+                ><i class="fa fa-cogs"></i
+                ><span class="menu-text">Habilidades</span></a
+              >
+            </li>
+            <li>
+              <a href="#projetos"
+                ><i class="fa fa-folder-open"></i
+                ><span class="menu-text">Projetos</span></a
+              >
+            </li>
+            <li>
+              <a href="#contato"
+                ><i class="fa fa-envelope"></i
+                ><span class="menu-text">Contato</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button class="menu-toggle" id="menu-toggle-js">
+          <svg
+            class="menu-icon-abrir"
+            id="menu-icon-abrir-js"
+            style="enable-background: new 0 0 32 32"
+            version="1.1"
+            viewBox="0 0 32 32"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"
+            />
+          </svg>
+          <svg
+            class="menu-icon-fechar"
+            id="menu-icon-fechar-js"
+            style="enable-background: new 0 0 512 512"
+            version="1.1"
+            viewBox="0 0 512 512"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"
+            />
+          </svg>
+        </button>
+      </header>
+    </div>
+
+    <main>
+      <div class="full-width-section">
+        <section id="inicio" class="secao">
+          <div class="perfil">
+            <h2>Lucas Labatut</h2>
+            <p>Desenvolvedor Front-end</p>
+            <div class="espaco-superior">
+              <a href="assets/pdf/CurriculoLabatut.pdf" download>
+                <button class="botao-curriculo">
+                  Currículo
+                  <i class="fa fa-download"></i>
+                </button>
+              </a>
+              <button id="botao-contato" class="botao-contato">
+                Entrar em contato
+              </button>
+            </div>
+          </div>
+          <div class="foto-terra">
+            <img src="assets/img/terra.png" alt="Terra" />
+          </div>
+        </section>
+      </div>
+
+      <div class="backgrr-1">
+        <section id="sobre" class="secao">
+          <div>
+            <img class="cellplanet" src="assets/img/cellplanet.png" alt="" />
+          </div>
+          <div class="container-sobre">
+            <h1 class="titulo">Sobre mim</h1>
+            <br />
+            <p class="subtitulo">Apresentação Pessoal:</p>
+            <p class="descricao">
+              Oi, eu sou o Lucas Labatut, tenho
+              <span class="destaque">22 anos</span> e sou
+              <span class="destaque">Surdo</span>.
+              <span class="destaque"
+                >Língua Brasileira de Sinais (Libras) avançada</span
+              >
+              <span class="destaque"
+                >Estudante Tecnologia de Análise e Desenvolvimento de Sistemas
+                na LA SALLE</span
+              >.
+            </p>
+            <br /><br />
+            <p class="subtitulo">Interesses e Objetivos Profissionais:</p>
+            <p class="descricao">
+              Estou em busca de um
+              <span class="destaque">estágio como desenvolvedor front-end</span
+              >, minha paixão é criar sites. Agora
+              <span class="destaque"
+                >estou mexendo com HTML, CSS e JavaScript</span
+              >, e logo vou aprender
+              <span class="destaque">TypeScript e React</span>. Mesmo sem um
+              trabalho agora, eu pratico o que estou aprendendo em meus próprios
+              projetos. Comecei a aprender a programar no início de
+              <span class="destaque">2023</span>. No começo, achei complicado e
+              nem sabia se era pra mim, porque tava pensando em ser
+              <span class="destaque">designer gráfico</span>. Mas daí percebi
+              que realmente gosto disso e continuo atrás dos meus sonhos,
+              especialmente como
+              <span class="destaque">desenvolvedor front-end</span>.
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="backgrr-2">
+        <section id="habilidades">
+          <div>
+            <img class="notebook" src="assets/img/notboking.png" alt="" />
+          </div>
+          <div>
+            <h1 class="titulo-habilidades">Habilidades</h1>
+            <br />
+            <div class="linha">
+              <div class="caixa-html" id="caixa">
+                HTML
+                <i class="fab fa-html5 icon"></i>
+              </div>
+              <div class="caixa-css" id="caixa">
+                CSS
+                <i class="fab fa-css3-alt icon"></i>
+              </div>
+              <div class="caixa-javascript" id="caixa">
+                JavaScript
+                <i class="fab fa-js icon"></i>
+              </div>
+            </div>
+            <div class="linha">
+              <div class="caixa-typescript" id="caixa">
+                TypeScript
+                <svg
+                  class="typescript"
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 50 50"
+                >
+                  <path
+                    d="M45,4H5C4.447,4,4,4.448,4,5v40c0,0.552,0.447,1,1,1h40c0.553,0,1-0.448,1-1V5C46,4.448,45.553,4,45,4z M29,26.445h-5V42h-4	V26.445h-5V23h14V26.445z M30.121,41.112v-4.158c0,0,2.271,1.712,4.996,1.712c2.725,0,2.62-1.782,2.62-2.026	c0-2.586-7.721-2.586-7.721-8.315c0-7.791,11.25-4.717,11.25-4.717l-0.14,3.704c0,0-1.887-1.258-4.018-1.258s-2.9,1.013-2.9,2.096	c0,2.795,7.791,2.516,7.791,8.141C42,44.955,30.121,41.112,30.121,41.112z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="caixa-react" id="caixa">
+                React
+                <i class="fab fa-react icon"></i>
+              </div>
+              <div class="caixa-figma" id="caixa">
+                Figma
+                <i class="fab fa-figma icon"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="backgrr-1">
+        <section id="projetos" class="secao">
+          <h2>Projetos</h2>
+          <div class="grid-container">
+            <div class="grid-item">
+              <img src="assets/img/LandingPagez.jpg" alt="" />
+              <div class="h2-p-p-container">
+                <div>
+                  <h2 style="color: #fe4330">Landing Page Dark/Light</h2>
+                </div>
+                <p>HTML - CSS - JavaScript</p>
+              </div>
+              <div class="icon-container">
+                <a target="_blank" href="https://github.com/DevLabatut">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://devlabatut.github.io/minha-landing-page-html-css-js/"
+                >
+                  <i class="fas fa-globe"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/lucas-labatut-pcd-839824282/"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img src="assets/img/loginez.jpg" alt="" />
+              <div class="h2-p-p-container">
+                <div>
+                  <h2 style="color: #fe4330">Login, Cadastro e Recuperação</h2>
+                </div>
+                <p>HTML - CSS - JavaScript</p>
+              </div>
+              <div class="icon-container">
+                <a target="_blank" href="https://github.com/DevLabatut">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://devlabatut.github.io/formulario-login-cadastro-recuperacao/"
+                >
+                  <i class="fas fa-globe"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/lucas-labatut-pcd-839824282/"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img src="assets/img/clonezfacebooki.jpg" alt="" />
+              <div class="h2-p-p-container">
+                <div>
+                  <h2 style="color: #fe4330">Clone Facebook</h2>
+                </div>
+                <p>HTML - CSS</p>
+              </div>
+              <div class="icon-container">
+                <a target="_blank" href="https://github.com/DevLabatut">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://devlabatut.github.io/facebook-login-clone-responsive/"
+                >
+                  <i class="fas fa-globe"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/lucas-labatut-pcd-839824282/"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img src="assets/img/pizzary.jpg" alt="" />
+              <div class="h2-p-p-container">
+                <div>
+                  <h2 style="color: #fe4330">ANDAMENTO</h2>
+                </div>
+                <p>HTML - CSS - JavaScript</p>
+              </div>
+              <div class="icon-container">
+                <a target="_blank" href="https://github.com/DevLabatut">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a style="cursor: pointer; opacity: 0.4">
+                  <i class="fas fa-globe"></i>
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/lucas-labatut-pcd-839824282/"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img src="assets/img/embrevee.png" alt="" />
+              <div class="h2-p-p-container">
+                <div>
+                  <h2 style="color: #fe4330">EM BREVE</h2>
+                </div>
+                <p>HTML - CSS - JavaScript</p>
+              </div>
+              <div class="icon-container">
+                <a target="_blank" href="https://github.com/DevLabatut"> </a>
+                <a href="#"> </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/lucas-labatut-pcd-839824282/"
+                >
+                </a>
+              </div>
+            </div>
+            <div class="grid-item">
+              <img src="assets/img/embrevee.png" alt="" />
+              <div class="h2-p-p-container">
+                <div>
+                  <h2 style="color: #fe4330">EM BREVE</h2>
+                </div>
+                <p>HTML - CSS - JavaScript</p>
+              </div>
+              <div class="icon-container">
+                <a target="_blank" href="https://github.com/DevLabatut"> </a>
+                <a href="#"> </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/lucas-labatut-pcd-839824282/"
+                >
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="backgrr-2">
+        <section id="contato" class="secao contact">
+          <div class="container-contato-form">
+            <div>
+              <h2>Contato</h2>
+              <form netlify>
+                <div class="campo">
+                  <label for="nome">Nome e Sobrenome</label><br />
+                  <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    required
+                    placeholder="Digite seu nome e sobrenome"
+                  />
+                </div>
+                <div class="campo">
+                  <label for="email">Email</label><br />
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="Digite seu e-mail"
+                  />
+                </div>
+                <div class="campo">
+                  <label for="assunto">Assunto</label><br />
+                  <input
+                    type="text"
+                    id="assunto"
+                    name="assunto"
+                    required
+                    placeholder="Digite o assunto"
+                  />
+                </div>
+                <div class="campo">
+                  <label for="mensagem">Mensagem</label><br />
+                  <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="4"
+                    required
+                    placeholder="Sua mensagem"
+                  ></textarea>
+                </div>
+                <button type="submit" class="botao">Enviar</button>
+              </form>
+            </div>
+            <div class="container-contato">
+              <div class="contato">
+                <h2 style="line-height: 50px">E-mail para contato</h2>
+                <p>lucas.labatut.sw@gmail.com</p>
+              </div>
+              <div class="contato">
+                <h2>Adicione nas redes</h2>
+                <div class="redes-sociais-container">
+                  <p class="rede-social">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/lucas-labatut-pcd-839824282/"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </p>
+                  <p class="rede-social">
+                    <a target="_blank" href="https://github.com/DevLabatut"
+                      ><i class="fa-brands fa-github-alt"></i
+                    ></a>
+                  </p>
+                  <p class="rede-social">
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/labatut20_/"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="rodape">
+      <p>&copy; 2024 / Lucas Labatut / Todos os direitos reservados</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
